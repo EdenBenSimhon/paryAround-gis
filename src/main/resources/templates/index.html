@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome prayAround</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-form">
+    <form th:action="@{/login}">
+    <h2>Welcome to  prayAround</h2>
+    <di>A system that finds locations of prayer houses by religion and the wording of the prayer.</di>
+    <div class="content">
+        <div class="action">
+            <button><a th:href="@{/register}">register</a></button>
+            <button type="submit" value="submit">Login</button>
+        </div>
+    </div>
+    </form>
+</div>
+<!-- partial -->
+<center><img src="/css/photo/nathan-dumlao-z_hy8TDLrvM-unsplash_4.jpg"  width ="500" height="300"></center>
+<script  src="/css/script.js"></script>
+
+</body>
+</html>
